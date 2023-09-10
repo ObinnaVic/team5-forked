@@ -3,17 +3,19 @@ module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     colors: {
-      "head-blue": "#0227c3",
-      "body-slate": "#f5f4f0",
-      "footer-blue": "#2b2b43",
-      "text-gray": "#565561",
-      "hover-color": "#990062",
-      "border-color": "#c2c1c5",
+      "cards-light": "#ffffff",
+      "light-header": "#302d2d",
+      "light-body": "#F5F4F0",
+      "light-footer": "#2b2b43",
+      "light-text": "#1d1e38",
+      "hover-light": "#990062",
+      "border-light": "#c2c1c5",
       "dark-body": "#040404",
-      "dark-border": "#f5f4f0",
+      "dark-header": "#f5f4f0",
+      "hover-dark": "#0227c3",
+      "border-dark": "#f5f4f0",
       "dark-footer": "#2b2b43",
       "dark-text": "#ffffff",
-      "light-text": "white"
     },
     fontFamily: {
       sans: ["Inconsolata", "sans-serif"],
